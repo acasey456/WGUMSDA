@@ -1,0 +1,5 @@
+setwd('C:/WGU/D206')
+install.packages('tidyverse')
+library('tidyverse')
+df <- read_csv('boston_housing_data.csv')
+head(df,5)
